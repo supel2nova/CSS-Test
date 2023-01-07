@@ -1,0 +1,35 @@
+.container {
+  width: 100wh;
+  padding: 0% 2%;
+}
+
+.container-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+p>small {
+  color: rgb(47, 121, 206);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.box img {
+  object-fit: cover;
+  max-height: 150px;
+}
